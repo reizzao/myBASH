@@ -1,6 +1,9 @@
 # PACOTES DEV
-# -- SET VAR_AMBIENTE PACOTE --
-# obs: preferir setar cada var com export VAR_ALVO
+# --  --
+# obs: Para um novo programa ser reconhecido tem que indicar a var PATH caminho d sistema o seu respectivo arquivo executador que esta dentro da pasta bin de cada programa.
+
+# DENO
+export PATH=$PATH:~/.deno/bin
 
 
 # KOTLIN - adicionar bin do novo pacote ao PATH caminho do sistema.

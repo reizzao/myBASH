@@ -24,6 +24,11 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\]$"
 # CHAMAR TODOS ARQUIVOS DE RUN LINGUAGENS
 # -- Somente este arquivo esta sendo chamado no bashrc - e daqui chamara os outros personalizados por linguagens
 
+
+if [ -f $HOME/$MY_BASH_DIR_SCRIPTS/.PATH_reconhecer_pacotes_dev ]; then
+    . $HOME/$MY_BASH_DIR_SCRIPTS/.PATH_reconhecer_pacotes_dev
+fi
+
 if [ -f $HOME/$MY_BASH_DIR_SCRIPTS/.atalhos ]; then
     . $HOME/$MY_BASH_DIR_SCRIPTS/.atalhos
 fi
@@ -38,10 +43,6 @@ fi
 
 if [ -f $HOME/$MY_BASH_DIR_SCRIPTS/.run_nvim ]; then
     . $HOME/$MY_BASH_DIR_SCRIPTS/.run_editor_nvim
-fi
-
-if [ -f $HOME/$MY_BASH_DIR_SCRIPTS/.reconhecer_pacotes_dev ]; then
-    . $HOME/$MY_BASH_DIR_SCRIPTS/.reconhecer_pacotes_dev
 fi
 
 if [ -f $HOME/$MY_BASH_DIR_SCRIPTS/.run_git ]; then
