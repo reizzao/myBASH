@@ -1,0 +1,5 @@
+# TEST_INIT BASH
+
+Ola() {
+  echo "Olá Mundo 1000 !"
+}

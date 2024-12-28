@@ -1,0 +1,1 @@
+console.log('Hello Deno Js 1')
