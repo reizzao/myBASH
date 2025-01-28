@@ -6,7 +6,5 @@
 export PATH=$PATH:~/.deno/bin
 
 
-# KOTLIN - adicionar bin do novo pacote ao PATH caminho do sistema.
-# export PATH=$PATH:/home/reizao/_my_rzj_/_programas_/kotlin/kotlinc/bin/
-# export PATH=$PATH:/home/reizao/_my_rzj_/_programas_/intellij_Community/idea-IC-232.9559.62/bin/
+
 

@@ -1,5 +1,32 @@
 # TEST_INIT BASH
 
+# DEFS
+export EDITOR1="code"
+
+
+# OPEN
+alias dbash="cd $HOME/_myRZJ/myBASH"
+alias dmusic="cd $HOME/Documentos/BC_Music"
+
+# fmm() {
+#   cd "~/Documentos/BC_Music"
+# }
+
+
+# FUNCTIONS
 Ola() {
   echo "Olá Mundo 1000 !"
+}
+
+v_git() {
+  git --version
+}
+
+git_conf() {
+  git config --global core.editor code
+  # git config --global core.editor nano
+}
+
+gatt() {
+  git pull && git push && git merge
 }
