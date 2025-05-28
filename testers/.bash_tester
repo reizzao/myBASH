@@ -14,6 +14,12 @@ alias dmusic="cd $HOME/Documentos/BC_Music"
 
 
 # FUNCTIONS
+off() {
+  sudo poweroff
+  # desligar pc imediatamente
+  # para desligar em 5 segundos: sudo shutdown -h +5
+}
+
 Ola() {
   echo "Olá Mundo 1000 !"
 }
