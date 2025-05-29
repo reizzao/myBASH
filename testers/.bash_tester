@@ -24,6 +24,11 @@ Ola() {
   echo "Olá Mundo 1000 !"
 }
 
+gpush() {
+  git add . && git commit -m "$1" && git push
+  # add + commitar e mandar pro remoto no mesmo comando git
+}
+
 v_git() {
   git --version
 }
